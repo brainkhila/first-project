@@ -1,0 +1,265 @@
+
+body {
+	margin: 0;
+	padding: 0;
+  background-color: #333;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+	/* background-color: #333; */
+	color: #fff;
+	/* padding: 20px; */
+	text-align: center;
+}
+
+nav {
+	float: right;
+	color: #fff;
+	/* padding: 20px; */
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+nav li {
+  margin: 0 20 0 20;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav a:hover {
+	color: #00bcd4;
+}
+
+main {
+	margin: 2em 20px 0 20px;
+	padding: 20px;
+  color: antiquewhite;
+
+}
+
+.tits{
+  text-align: center;
+  width: 50%;
+}
+
+.boo{
+  background-color: var(  #333, #0a0909);
+  width: 50%;
+  height: auto;
+  /* opacity: 20%; */
+  /* border-radius: 3%; */
+
+}
+
+footer {
+	/* background-color: #333; */
+	color: #fff;
+	padding: 20px;
+  margin: 0 0 0 0;
+  /* margin-top: 15%; */
+	text-align: center;
+	clear: both;
+  transition: all 2s ease-in;
+}
+footer:hover{
+  background-color: #333;
+  transition: all 2s ease-in-out;
+  
+}
+
+
+/* Contact page */
+.contact {
+  display: flex;
+  flex-direction: row;
+  transition: all 3s ease-in-out;
+  /* background-image: url(images/coma.jpg); */
+  /* opacity: 50%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f2f2f2; */
+  color: #333;
+  padding: 50px;
+}
+
+.contact-info {
+  color: crimson;
+  flex: 1;
+}
+
+.contact-info h2 {
+  margin-top: 0;
+}
+
+.contact-form {
+  margin: 0 100 0 100;
+  width: 50%;
+  flex: 1;
+  margin-left: 50px;
+}
+
+.contact-form h2 {
+  
+  margin-top: 0;
+}
+
+.contact-form label {
+  opacity: 100%;
+  color: #00bcd4;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: none;
+}
+img{
+  opacity: 40%;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.contact-form button:hover {
+  background-color: #060606;
+}
+
+
+
+/* About us */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.two{
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+/* #two{
+  background-image: url(images/campnou.png);
+} */
+.intro-section {
+
+  /* background-color: #f7f7f7; */
+  padding: 50px;
+  text-align: center;
+}
+.intro-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.intro-section p {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: auto;
+}
+.team-section {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.team-member {
+  flex-basis: 300px;
+  margin: 20px;
+  text-align: center;
+}
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+}
+.team-member h3 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.team-member p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+
+/* services section */
+.upper {
+  background-color: #f5f5f5;
+  padding: 100px 50px;
+  text-align: center;
+}
+.upper h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.upper p {
+  font-size: 24px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: auto;
+}
+.services-section {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.service {
+  flex-basis: 300px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+}
+.service h3 {
+  margin-top: 0;
+  font-size: 24px;
+}
+.service p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
